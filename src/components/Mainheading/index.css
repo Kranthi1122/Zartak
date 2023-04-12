@@ -1,0 +1,33 @@
+.button {
+  border: 0px;
+  background-color: transparent;
+}
+
+.category-container {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.category-container::-webkit-scrollbar {
+  display: none;
+}
+
+.category-wrapper {
+  display: flex;
+}
+
+.category {
+  padding: 10px;
+
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.heading {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+.headingGree {
+  color: black;
+}

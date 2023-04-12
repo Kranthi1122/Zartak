@@ -1,0 +1,14 @@
+.head {
+  order: -1;
+  display: flex;
+  justify-content: space-between;
+  width: 95vw;
+  padding: 15px;
+}
+.cart {
+  height: 50px;
+}
+.lala {
+  display: flex;
+  margin-left: 20px;
+}
